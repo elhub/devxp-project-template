@@ -2,7 +2,7 @@ import no.elhub.devxp.build.configuration.pipeline.ElhubProject.Companion.elhubP
 import no.elhub.devxp.build.configuration.pipeline.constants.Group.DEVXP
 import no.elhub.devxp.build.configuration.pipeline.jobs.makeVerify
 
-elhubProject(DEVXP, "devxp-jira-scripts") {
+elhubProject(DEVXP, "devxp-project-template") {
     pipeline {
         sequential {
             makeVerify {
