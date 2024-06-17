@@ -4,6 +4,7 @@
 .golangci.yml
 .markdownlint.json
 .prettierrc.json
+.stylelintrc.json
 .yamllint.yml
 revive.toml
 

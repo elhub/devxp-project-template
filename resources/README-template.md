@@ -34,8 +34,8 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 Explain how to run the automated tests for this system if appropriate.
 
-```
-Give an example
+```bash
+# Example code to use
 ```
 
 ## Contributing
