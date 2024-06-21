@@ -14,14 +14,9 @@ files.
 
 ## Contributing
 
-Contributing, issues and feature requests are welcome. See the
-[Contributing](https://github.com/elhub/devxp-project-template/blob/main/CONTRIBUTING.md) file.
+Contributing, issues and feature requests are welcome. See the [Contributing](https://github.com/elhub/devxp/blob/main/.github/CONTRIBUTING) file.
 
 ## Owners
 
-This project is developed by [Elhub](https://wwww.elhub.no). For the specific development group responsible for this
-code, see the [Codeowners](https://github.com/elhub/devxp-project-template/blob/main/.github/CODEOWNERS) file.
-
-## License
-
-See [LICENSE](https://github.com/elhub/devxp-project-template/blob/main/LICENSE).
+This project is developed by [Elhub](https://www.elhub.no). For the specific development group responsible for this
+code, see the [Codeowners](https://github.com/elhub/devxp/blob/main/.github/CODEOWNERS) file.
