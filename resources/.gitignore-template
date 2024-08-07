@@ -2,6 +2,7 @@
 .checkmake.ini
 .jsonlintrc
 .golangci.yml
+.htmlhintrc
 .markdownlint.json
 .prettierrc.json
 .stylelintrc.json
