@@ -1,4 +1,4 @@
-### Local Lint Files
+### Local Lint Files ###
 .checkmake.ini
 .jsonlintrc
 .golangci.yml
@@ -9,7 +9,7 @@
 .yamllint.yml
 revive.toml
 
-### Elhub-Ansible
+### Ansible ###
 **/galaxy/*
 **/inventories/*
 !**/galaxy/.gitkeep
@@ -17,14 +17,14 @@ revive.toml
 ansible/*.log
 ansible/*.retry
 
-### Backup files
+### Backup files ###
 **/*.bkp
 **/*.bak
 
-# CMake
+### CMake ###
 cmake-build-*/
 
-### Env files
+### Env files ###
 *.env
 
 ### Intellij+all Patch ###
@@ -94,7 +94,10 @@ sketch
 screenshots/*
 !screenshots/.gitkeep
 
-# Terraform
+### TeamCity ###
+.teamcity/bin/
+
+### Terraform ###
 terraform/.terraform
 terraform/*.tfstate*
 terraform/*.tfvars
@@ -103,3 +106,7 @@ terraform/*.tfvars
 /coverage
 /allure-report
 /allure-results
+
+### Visual Studio Code ###
+.vscode/
+*.code-workspace
