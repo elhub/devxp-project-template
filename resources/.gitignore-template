@@ -1,12 +1,15 @@
 ### Local Lint Files ###
 .checkmake.ini
-.jsonlintrc
+.flake8
 .golangci.yml
 .htmlhintrc
+.jsonlintrc
 .markdownlint.json
 .prettierrc.json
+.pylintrc
 .stylelintrc.json
 .yamllint.yml
+pyproject.toml
 revive.toml
 
 ### Ansible ###
