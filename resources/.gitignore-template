@@ -1,5 +1,6 @@
 ### Local Lint Files ###
 # This is required to avoid megalinter spamming each repository with lint configurations
+.ansible-lint
 .checkmake.ini
 .flake8
 .golangci.yml
