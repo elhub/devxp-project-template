@@ -30,7 +30,7 @@ ansible/*.retry
 cmake-build-*/
 
 ### Env files ###
-*.env
+*.env*
 
 ### Intellij+all Patch ###
 # Ignores the whole .idea folder and all .iml files
