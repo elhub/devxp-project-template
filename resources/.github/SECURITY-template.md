@@ -4,7 +4,7 @@ Elhub takes security and privacy of our software products and services seriously
 responsibly disclose your findings, and will make every effort to acknowledge your contributions.
 
 If you believe you have found a security vulnerability or privacy concern in any of our systems, please report
-it to us via one of the approached described below. **Please do not report security vulnerabilities through
+it to us via one of the approaches described below. **Please do not report security vulnerabilities through
 open channels such as GitHub issues or pull requests**.
 
 * To report an issue, please [use GitHub vulnerability reporting](https://github.com/elhub/.github/security/advisories/new).
