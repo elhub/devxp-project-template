@@ -9,16 +9,15 @@ your contributions. 🎉
 
 > If you like the project, but just don't have time to contribute, that's fine. There are other easy ways to support
 > the project and show your appreciation, which we would also be very happy about:
+>
 > * Star the project
 > * Refer this project in your project's readme
 > * Mention the project on social media, meetups, etc.
-
 
 ## Code of Conduct
 
 We adhere to the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/).
 By participating, you are expected to uphold this code.
-
 
 ## Issue Tracker
 
@@ -36,7 +35,6 @@ When writing issues:
 > Do not, **ever**, report security related issues, vulnerabilities or bugs including sensitive information to the
 > public issue tracker or elsewhere in public. For sensitive bugs, <email:security@elhub.no>.
 
-
 ## I Have a Question
 
 > If you want to ask a question, we assume that you have read the available documentation (start with ../README.md).
@@ -44,7 +42,6 @@ When writing issues:
 Post your question as a new issue or comment on an existing suitable issue.
 
 We will try to respond as soon as possible.
-
 
 ## I Want To Contribute
 
