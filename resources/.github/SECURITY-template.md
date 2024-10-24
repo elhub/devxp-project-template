@@ -20,7 +20,7 @@ Include as much details as you can in your message, such as:
 * Proof-of-concept or exploit code (if possible)
 * Impact of the issue, including how it might be exploited
 
-This information will help us triage your report more quickly. 
+This information will help us triage your report more quickly.
 
 The security team will send you a response indicating any next steps required to handle your report. After the initial
 reply to your report, the security team will keep you informed of the progress towards a fix and may ask for additional
