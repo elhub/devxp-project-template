@@ -21,3 +21,8 @@ ktlint_standard = enabled
 
 [{*.py, *.pyi}]
 indent_size = 4
+max_line_length = 160
+
+[{Makefile,**.mk}]
+# Use tabs for indentation (Makefiles require tabs)
+indent_style = tab
