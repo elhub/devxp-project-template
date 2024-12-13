@@ -123,5 +123,5 @@ terraform/*.tfvars
 ### Helm ###
 # Chart dependencies
 **/charts/*.tgz
-# Avoid commiting chart lockfile (can cause issues with ArgoCD
+# Avoid commiting chart lockfile (can cause issues with ArgoCD)
 Chart.lock
