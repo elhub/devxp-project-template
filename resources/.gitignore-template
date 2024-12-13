@@ -119,3 +119,9 @@ terraform/*.tfvars
 ### Visual Studio Code ###
 .vscode/
 *.code-workspace
+
+### Helm ###
+# Chart dependencies
+**/charts/*.tgz
+# Avoid commiting chart lockfile (can cause issues with ArgoCD
+Chart.lock
