@@ -89,6 +89,7 @@ buildNumber.properties
 hs_err_pid*
 
 ### Python ###
+.venv
 __pycache__/
 *.py[cod]
 *$py.class
