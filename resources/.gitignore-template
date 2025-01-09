@@ -17,6 +17,8 @@
 pyproject.toml
 revive.toml
 trivy.yaml
+checkstyle-config.xml
+java-pmd-ruleset.xml
 
 ### Ansible ###
 **/galaxy/*
