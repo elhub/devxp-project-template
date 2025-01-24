@@ -53,8 +53,8 @@ atlassian-ide-plugin.xml
 
 ### Gradle ###
 .gradle
-build/
-**/build/
+**/build/**/*
+!**/devxp/build/**/*
 gradle-app.setting
 .gradletasknamecache
 
@@ -96,7 +96,6 @@ __pycache__/
 *$py.class
 # Distribution / packaging
 .Python
-build/
 dist/
 wheels/
 share/python-wheels/
