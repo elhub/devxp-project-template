@@ -156,3 +156,7 @@ terraform/*.tfvars
 **/charts/*.tgz
 # Avoid commiting chart lockfile (can cause issues with ArgoCD)
 Chart.lock
+
+### Secrets ###
+*.secrets.properties
+*.secrets.conf
