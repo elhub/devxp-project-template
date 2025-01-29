@@ -75,9 +75,8 @@ buildNumber.properties
 # Compiled class file
 *.class
 # Log files
-*.log
 *.log*
-# Package Files #
+# Package Files
 *.jar
 *.war
 *.nar
