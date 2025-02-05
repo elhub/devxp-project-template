@@ -54,7 +54,7 @@ atlassian-ide-plugin.xml
 ### Gradle ###
 .gradle
 **/build/**/*
-!**/devxp/build/**/*
+!**/src/**/build/**/*
 gradle-app.setting
 .gradletasknamecache
 
