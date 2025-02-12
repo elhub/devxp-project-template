@@ -3,6 +3,7 @@
 
 # Force the following filetypes to have unix eols, so Windows does not break them
 *.* text eol=lf
+gradlew text eol=lf
 
 # Explicit windows files should use crlf
 *.bat text eol=crlf
