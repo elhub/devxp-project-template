@@ -45,6 +45,8 @@ modules.xml
 *.iml
 *.ipr
 out/
+# Project-specific kotlin files
+.kotlin/
 # JIRA plugin
 atlassian-ide-plugin.xml
 # SonarQube Plugin
