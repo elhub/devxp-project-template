@@ -69,6 +69,11 @@ max_line_length = 160
 indent_size = 2
 max_line_length = 160
 
+# TOML
+[*.toml]
+indent_size = 2
+max_line_length = 160
+
 # YAML
 [*.{yml,yaml}]
 indent_size = 2
