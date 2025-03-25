@@ -61,7 +61,7 @@ max_line_length = 160
 max_line_length = 160
 
 # PlantUML
-[*.{puml,plantuml}]]
+[*.{puml,plantuml}]
 indent_size = 2
 max_line_length = 160
 
