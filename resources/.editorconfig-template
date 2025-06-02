@@ -13,7 +13,7 @@ insert_final_newline = true
 trim_trailing_whitespace = true
 
 # Git
-[{.gitmodules}]
+[.gitmodules]
 indent_style = tab
 
 # Go
@@ -48,6 +48,7 @@ ktlint_standard_class-signature = disabled
 # This ends up correcting to something that intellij auto-formats back
 ktlint_standard_condition-wrapping = disabled
 max_line_length = 160
+ij_continuation_indent_size = 4
 
 # Makefile
 [{Makefile,**.mk}]
