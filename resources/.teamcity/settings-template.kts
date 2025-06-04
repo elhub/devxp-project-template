@@ -1,5 +1,5 @@
-import no.elhub.devxp.build.configuration.pipeline.ElhubProject.Companion.elhubProject
 import no.elhub.devxp.build.configuration.pipeline.constants.Group
+import no.elhub.devxp.build.configuration.pipeline.dsl.elhubProject
 
 elhubProject(Group.YOURGROUPHERE, "your-project-name-here") {
     pipeline {
