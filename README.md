@@ -1,4 +1,4 @@
-# devxp-project-template
+# 📝 devxp-project-template 📝
 
 [<img src="https://img.shields.io/badge/repo-github-blue" alt="">](https://github.com/elhub/devxp-project-template)
 [<img src="https://img.shields.io/badge/issues-jira-orange" alt="">](https://jira.elhub.cloud/issues/?jql=component%20%3D%20devx-project-template%20AND%20status%20!%3D%20Done)
