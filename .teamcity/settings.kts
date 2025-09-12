@@ -6,7 +6,13 @@ elhubProject(DEVXP, "devxp-project-template") {
     pipeline {
         sequential {
             makeVerify {
-                disableSonarScan = true
+                sonarScanSettings = {
+                    sonarProjectSources = "resources/,Makefile"
+                }
+                enablePublishMetrics = true
+                publishMetricsSettings = {
+                    skipCodeCoverage = true
+                }
             }
         }
     }

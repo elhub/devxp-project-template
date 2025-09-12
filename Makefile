@@ -1,3 +1,6 @@
+# Phony targets
+.PHONY: all build check clean teamcity-check
+
 # Default target
 all: build
 
@@ -13,5 +16,5 @@ check:
 clean:
 	@echo "make clean"
 
-teamcityCheck:
+teamcity-check:
 	cd .teamcity && mvn teamcity-configs:generate
