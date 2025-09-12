@@ -1,0 +1,33 @@
+---
+name: devxp-project-template
+slug: devxp-project-template
+id: "ari:cloud:compass:dd0efeb0-2368-4bf7-b77b-9402345ecfe5:component/4290245e-438e-4548-ba7a-a603f0c73614/06c3c231-508f-4f37-8661-090d87d351f4"
+description: |-
+  This is a repository containing standard template files for Elhub development projects. The files here are used to
+  initialize and standardize the various meta files in our repositories.
+typeId: OTHER
+ownerId: "ari:cloud:identity::team/e6119202-0d8b-4174-bf04-7f1421525c1e"
+fields:
+  tier: 4
+  lifecycle: Active
+configVersion: 1
+links:
+  - name: "GitHub Repository"
+    type: REPOSITORY
+    url: "https://github.com/elhub/devxp-project-template"
+  - name: "Jira Project"
+    type: PROJECT
+    url: "https://elhub.atlassian.net/browse/TDX"
+  - name: "Sonar Dashboard"
+    type: DASHBOARD
+    url: "https://sonar.elhub.cloud/dashboard?id=no.elhub.devxp.devxp-project-template&codeScope=overall"
+  - name: Developer Docs
+    type: DOCUMENT
+    url: "https://docs.elhub.cloud/enabling-systems/devxp/devxp-project-template/index.html"
+relationships: {}
+customFields: null
+labels:
+  - "language:markdown"
+  - "language:properties"
+  - "language:yaml"
+  - "source:github"
