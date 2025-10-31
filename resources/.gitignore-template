@@ -134,6 +134,8 @@ thumb
 sketch
 screenshots/*
 !screenshots/.gitkeep
+**/dependency-check-bin
+**/dependency-check-reports
 
 ### TeamCity ###
 .teamcity/bin/
