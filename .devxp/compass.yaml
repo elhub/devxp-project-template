@@ -5,7 +5,7 @@ id: "ari:cloud:compass:dd0efeb0-2368-4bf7-b77b-9402345ecfe5:component/4290245e-4
 description: |-
   This is a repository containing standard template files for Elhub development projects. The files here are used to
   initialize and standardize the various meta files in our repositories.
-typeId: "ari:cloud:compass:dd0efeb0-2368-4bf7-b77b-9402345ecfe5:component-type/4290245e-438e-4548-ba7a-a603f0c73614/fe7ec8a1-cbba-4b5f-8bf5-c1710f3ffcf7"
+typeId: OTHER
 ownerId: "ari:cloud:identity::team/e6119202-0d8b-4174-bf04-7f1421525c1e"
 fields:
   tier: 4
