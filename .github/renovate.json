@@ -1,4 +1,33 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>elhub/devxp-renovate"]
+  "extends": ["github>elhub/devxp-renovate"],
+  "customManagers": [
+    {
+      "description": "TeamCity pom-template.xml files",
+      "customType": "regex",
+      "managerFilePatterns": [
+        "/(^|/)(\\.teamcity/)?pom-template\\.xml$/"
+      ],
+      "matchStrings": [
+        "<devxp-build-configuration.version>(?<currentValue>[^<]+)</devxp-build-configuration.version>"
+      ],
+      "depNameTemplate": "no.elhub.devxp:devxp-build-configuration",
+      "datasourceTemplate": "maven",
+      "registryUrlTemplate": "https://jfrog.elhub.cloud/artifactory/elhub-mvn"
+    }
+  ],
+  "packageRules": [
+    {
+      "description": "Auto-approve and auto-merge devxp build configuration updates to pom-template.xml",
+      "matchManagers": ["custom.regex"],
+      "matchFileNames": ["**/pom-template.xml"],
+      "matchDepNames": [
+        "no.elhub.devxp:devxp-build-configuration"
+      ],
+      "autoApprove": true,
+      "automerge": true,
+      "platformAutomerge": true,
+      "automergeType": "pr"
+    }
+  ]
 }
