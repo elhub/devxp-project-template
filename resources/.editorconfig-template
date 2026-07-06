@@ -11,75 +11,56 @@ end_of_line = lf
 indent_style = space
 insert_final_newline = true
 trim_trailing_whitespace = true
+max_line_length = 160
 
 # Git
 [.gitmodules]
 indent_style = tab
+max_line_length = off
 
 # Go
 [{go.mod,go.sum,*.go}]
 indent_style = tab
-max_line_length = 160
-
-# Java, Scala, Rust
-[*.{java,scala,rs}]
-max_line_length = 160
 
 # JSON
 [*.json]
 indent_size = 2
+max_line_length = off
 
 # Kotlin
 [*.{kt,kts}]
-max_line_length = 160
 ij_continuation_indent_size = 4
 
 # Makefile
 [{Makefile,**.mk}]
-# Use tabs for indentation (Makefiles require tabs)
 indent_style = tab
-max_line_length = 160
-
-# Markdown
-[*.md]
-max_line_length = 160
 
 # PlantUML
 [*.{puml,plantuml}]
 indent_size = 2
-max_line_length = 160
-
-# Python
-[{*.py,*.pyi}]
-max_line_length = 160
 
 # Rego
 [*.rego]
-end_of_line = lf
-insert_final_newline = true
-charset = utf-8
 indent_size = 2
+max_line_length = off
 
 # Shell
 [*.sh]
 indent_size = 2
-max_line_length = 160
 
 # SQL
 [*.sql]
 indent_size = 2
+max_line_length = off
 
 # TOML
 [*.toml]
 indent_size = 2
-max_line_length = 160
 
 # YAML
 [*.{yml,yaml}]
 indent_size = 2
-max_line_length = 160
 
 # XML
 [*.xml]
 indent_size = 2
-max_line_length = 160
