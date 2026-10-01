@@ -2,7 +2,7 @@
 
 So you want to contribute ? Awesome. ❤️
 
-All types of contributions are encouraged and valued.  See below for different ways to help and details about how
+All types of contributions are encouraged and valued. See below for different ways to help and details about how
 this project handles them. Please make sure to read the relevant section before making your contribution. It will
 make it a lot easier for us maintainers and smooth out the experience for everyone involved. We look forward to
 your contributions. 🎉

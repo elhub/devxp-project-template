@@ -12,6 +12,11 @@ indent_style = space
 insert_final_newline = true
 trim_trailing_whitespace = true
 
+# Biome-formatted files
+[*.{js,jsx,mjs,cjs,ts,tsx,mts,cts,json,jsonc,css,graphql,gql}]
+indent_size = 2
+max_line_length = 160
+
 # Git
 [.gitmodules]
 indent_style = tab
@@ -24,10 +29,6 @@ max_line_length = 160
 # Java, Scala, Rust
 [*.{java,scala,rs}]
 max_line_length = 160
-
-# JSON
-[*.json]
-indent_size = 2
 
 # Kotlin
 [*.{kt,kts}]
