@@ -1,5 +1,5 @@
 plugins {
-    id("no.elhub.devxp.kotlin-library") version "1.0.0"
+    id("no.elhub.devxp.kotlin-library") version "1.0.2"
 }
 
 group = "no.elhub.yourgroup"
