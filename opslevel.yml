@@ -21,23 +21,18 @@ component:
     - name: Source Code
       category: code
       url: https://github.com/elhub/devxp-project-template
-      environment: github
     - name: TeamCity
       category: continuous_integration
       url: https://teamcity.elhub.cloud/project/Devxp_DevxpProjectTemplate?mode=builds#all-projects
-      environment: cirrus
     - name: SonarQube
       category: security_scans
       url: https://sonar.elhub.cloud/project/overview?id=no.elhub.devxp.devxp-project-template
-      environment: cirrus
     - name: Dependency Track
       category: security_scans
       url: https://dependencytrack-ui.elhub.cloud/projects/de5d49d6-a53c-4780-8b1d-295141955ef0
-      environment: cirrus
     - name: Issue Tracker
       category: issue_tracking
       url: https://elhub.atlassian.net/issues?jql=component%20%3D%20%22devxp-project-template%22%20AND%20resolution%20%3D%20Unresolved
-      environment: atlassian
   dependencies: []
   alert_sources: []
   properties: {}
