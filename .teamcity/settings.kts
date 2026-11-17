@@ -9,10 +9,6 @@ elhubProject(DEVXP, "devxp-project-template") {
                 sonarScanSettings = {
                     sonarProjectSources = "resources/,Makefile"
                 }
-                enablePublishMetrics = true
-                publishMetricsSettings = {
-                    skipCodeCoverage = true
-                }
             }
         }
     }
